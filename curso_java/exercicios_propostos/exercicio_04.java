@@ -11,13 +11,13 @@ public class exercicio_04 {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 		
-	
+		double N, T, H;
 		
 		System.out.printf("Insira seu número, horas trabalhadas, valor recebido por hora %n");
 		
-		double N = sc.nextDouble();
-		double T = sc.nextDouble();
-		double H = sc.nextDouble();
+		N = sc.nextDouble();
+		T = sc.nextDouble();
+		H = sc.nextDouble();
 		
 		double salario =  ((T * H) * 30);
 		
